@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Roboto Condensed';
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+span {
+  font-family: 'Urbanist';
+  font-weight: 600;
+}
+
+.data-container {
+  padding: 0 1rem;
+}
+
+.data {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: 'Radio Canada';
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: darkviolet;
+  color: white;
+}
+
+.secondary {
+  background-color: gray;
+  color: black;
+}
+
+.triple {
+  background-color: deepskyblue;
+  color: rgb(71, 71, 223);
+}
